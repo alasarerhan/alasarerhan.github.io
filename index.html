@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Erhan Alasar | Data Scientist</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="mediaqueries.css">
+        <link rel="icon" href="./assets/pageicon.png" type="image/x-icon">
+    </head>    
+<body>
+    <header>
+        <nav id="nav">
+            <div class="header">
+                <div class="logo">
+                    <img src="./assets/pageicon.png" alt="Erhan Alasar">
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#proficiencies">Proficiencies</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#certificates">Certificates</a></li>
+                    <li><a href="#other-platforms">Other Platforms</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <nav id="hamburger-nav">
+            <div class="header">
+                <div class="logo">
+                    <img src="./assets/pageicon.png" alt="Erhan Alasar">
+                </div>
+                <div class="hamburger-menu">
+                    <div class="hamburger-icon" onclick="toggleMenu()">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <div class="menu-links">
+                        <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                        <li><a href="#proficiencies" onclick="toggleMenu()">Proficiencies</a></li>
+                        <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                        <li><a href="#certificates">Certificates</a></li>
+                        <li><a href="#other-platforms" onclick="toggleMenu()">Other Platforms</a></li>
+                        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="profile">
+            <div class="section_text">
+                <p class="section_text_p1">Hello, I'm</p>
+                <h1 class="title_1">Erhan Alasar</h1>
+                <p class="section_text_p2">Data Scientist | Data Analyst</p>
+            </div>
+        </section>
+        <!-- Diğer bölümler burada devam eder -->
+    </main>
+</body>
+</html>
+
+        <section id="about">
+            <p class="section_text_p1">Get To Know More</p>
+            <h1 class="title_2">About Erhan Alasar</h1>
+            <div class="text_container">
+                <p>Hello! I am a dedicated data science and data analytics professional with a background in navy . My journey from the navy to the world of data has equipped me with a set of skills and perspectives, which I apply to solve complex data problems.</p>
+                <p>What captivates me about this field is its ever-changing nature, the diverse challenges it presents, and the endless opportunities for growth. I am deeply motivated by the potential of data to revolutionize industries and spur innovation, and I am excited to contribute to that progress.</p>
+                <p>Beyond data, I indulge in my love for , prioritize a healthy lifestyle and find joy in the rhythm of good music. These interests provide balance, fuel creativity and keep me energized for data's challenges.</p>
+            </div>
+        </section>
+        <section id="proficiencies">
+            <p class="section_text_p1">Here Are My</p>
+            <h1 class="title_2">Proficiencies</h1>
+            <div class="text_container">
+                <p class="aligned-text">I can optimize your data to drive better results, informed decision-making, and cost savings. With expertise in SQL, Python, Power BI and data visualization, combined with a background in advanced machine learning techniques including predictive modeling, deep learning, and computer vision, I provide impactful data solutions. My skills in creating custom dashboards, reports, and effective data storytelling ensure that insights are clear and actionable.</p>
+            </div>
+            <div class="article_container">
+                <article>
+                    <img src="./assets/data-analysis.png" alt="Data Analysis Icon" class="icon"/>
+                    <div>
+                        <h3>Data Analysis</h3>
+                        <p>Identify trends, anomalies, and opportunities for data-driven decision-making by uncovering latent insights and patterns within data.</p>
+                    </div>
+                </article>
+                <article>
+                    <img src="./assets/data-analytics.png" alt="Data Analytics Icon" class="icon"/>
+                    <div>
+                        <h3>Data Analytics</h3>
+                        <p>Leverage advanced methodologies, such as predictive modeling, machine learning, and deep learning solutions, to forecast outcomes, enhance processes, and secure a competitive advantage.</p>
+                    </div>
+                </article>
+                <article>
+                    <img src="./assets/data-visualization.png" alt="Data Visualization Icon" class="icon"/>
+                    <div>
+                        <h3>Data Visualization and Storytelling</h3>
+                        <p>Transform complex data into clear and compelling visual narratives and storytelling. Develop customized dashboards and reports to improve data understanding and insights.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <section id="projects">
+            <p class="section_text_p1">Browse Through My</p>
+            <h1 class="title_2">Projects</h1>
+            <div class="details_container">
+                <div class="details_container color_container">
+                    <div class="details_container color_container">
+                        <div class="subdetail_container">
+                            <img src="./assets/multimodal.png" class="project_img"/>
+                            <h2 class="projects_subtitle">Multimodal Recommendation System</h2>
+                            <p>The developed platform aims to provide personalized recommendations across various domains (Airbnb, movies, anime, games, books).</p> 
+                            <p>By analyzing user preferences and behaviors, the system seeks to recommend the most relevant content.</p>
+                            <p>This project leverages a variety of machine learning and filtering techniques to improve user satisfaction and maximize user engagement on the platform.</p>
+                            <div class="btn_container">
+                                <button class="btn btn_color project_btn" onclick="window.open('https://miuulentertainment.streamlit.app/', '_blank')">View Project</button>
+                            </div>
+                        </div>
+                        <div class="subdetail_container">
+                            <img src="./assets/armut.jpg" class="project_img"/>
+                            <h2 class="projects_subtitle">Armut Association Rule Learning</h2>
+                            <p>Armut, an online service platform in Turkey, connects service providers and service recipients, offering easy access to services such as cleaning, renovation, and transportation via computers or smartphones. In this project, a product recommendation system was developed using Association Rule Learning, leveraging a dataset that includes services received by users and their corresponding categories.</p>
+                            <div class="btn_container">
+                                <button class="btn btn_color project_btn" onclick="window.open('https://github.com/alasarerhan/Armut-ARL-Recommendation-System', '_blank')">GitHub</button>
+                                <button class="btn btn_color project_btn" onclick="window.open('https://www.kaggle.com/code/erhanalasar/armut-arl-recommender-system', '_blank')">Kaggle</button>
+                            </div>
+                        </div>                    
+                        <div class="subdetail_container">
+                            <img src="./assets/scoutium.jpg" class="project_img"/>
+                            <h2 class="projects_subtitle">End to End ML with Scoutium Talent Hunt</h2>
+                            <p>An end-to-end talent classification system was developed using the Scoutium dataset. An accuracy of 88% and a precision of 83% were achieved with the LGBM model, showcasing expertise in sports data and advanced machine learning techniques.</p> 
+                            <div class="btn_container">
+                                <button class="btn btn_color project_btn" onclick="window.open('https://github.com/alasarerhan/End-to-End-ML-with-Scoutium-Talent-Hunt', '_blank')">GitHub</button>
+                                <button class="btn btn_color project_btn" onclick="window.open('https://www.kaggle.com/code/erhanalasar/end-to-end-ml-with-scoutium-talent-hunt', '_blank')">Kaggle</button>
+                            </div>
+                        </div>
+                        <div class="subdetail_container">
+                            <img src="./assets/house_price.jpg" class="project_img"/>
+                            <h2 class="projects_subtitle">House Price Prediction</h2>
+                            <p>A model for predicting house prices was developed, with an R² score of 0.91 being achieved, indicating high accuracy in price forecasts.</p> 
+                            <div class="btn_container">
+                                <button class="btn btn_color project_btn" onclick="window.open('https://github.com/alasarerhan/House-Price-Prediction_EDA-ML-End-to-End', '_blank')">GitHub</button>
+                                <button class="btn btn_color project_btn" onclick="window.open('https://www.kaggle.com/code/erhanalasar/house-price-prediction-model', '_blank')">Kaggle</button>
+                            </div>
+                        </div>
+                        <div class="subdetail_container">
+                            <img src="./assets/churn.jpg" class="project_img"/>
+                            <h2 class="projects_subtitle">Customer Churn Analytics</h2>
+                            <p>A project focused on predicting customer churn using CatBoost, applying data science techniques to improve customer retention strategies.</p> 
+                            <div class="btn_container">
+                                <button class="btn btn_color project_btn" onclick="window.open('https://github.com/alasarerhan/Telco-Churn-Prediction_EDA-ML-End-to-End/tree/main', '_blank')">GitHub</button>
+                                <button class="btn btn_color project_btn" onclick="window.open('https://www.kaggle.com/code/erhanalasar/telco-customer-churn-prediction', '_blank')">Kaggle</button>
+                            </div>
+                        </div>
+                        <div class="subdetail_container">
+                            <img src="./assets/diabetes.png" class="project_img"/>
+                            <h2 class="projects_subtitle">Diabetes Prediction</h2>
+                            <p>After identifying the features, developed a diabetes prediction model with Random Forest and 74% accuracy, aiding in early identification of at-risk individuals. Before developing the model, necessary data analysis and feature engineering steps were meticulously detailed.</p> 
+                            <div class="btn_container">
+                                <button class="btn btn_color project_btn" onclick="window.open('https://github.com/alasarerhan/Diabetes-Prediction-with-Feature-Engineering-and-Random-Forest', '_blank')">GitHub</button>
+                                <button class="btn btn_color project_btn" onclick="window.open('https://www.kaggle.com/code/erhanalasar/diabetes-dataset-feature-engineering', '_blank')">Kaggle</button>
+                            </div>
+                        </div>
+                        <div class="subdetail_container">
+                            <img src="./assets/cltv.png" class="project_img"/>
+                            <h2 class="projects_subtitle">CLTV Prediction with BG-NBD & Gamma-Gamma Model</h2>
+                            <p>Using the FLO dataset, a comprehensive roadmap was developed to create medium and long-term strategies for sales and marketing activities in the retail sector. Predictive analysis was conducted using analytical techniques such as BG-NBD and Gamma-Gamma models to estimate the potential Customer Lifetime Value (CLTV) that existing customers will contribute to the company in the future.</p> 
+                            <div class="btn_container">
+                                <button class="btn btn_color project_btn" onclick="window.open('https://github.com/alasarerhan/RFM-CLTV', '_blank')">GitHub</button>
+                                <button class="btn btn_color project_btn" onclick="window.open('https://www.kaggle.com/code/erhanalasar/cltv-with-flo', '_blank')">Kaggle</button>
+                            </div>
+                        </div>
+                        
+                        <div class="subdetail_container"> <!-- Class name corrected to match previous usage -->
+                            <img src="./assets/rfm.png" class="project_img"/>
+                            <h2 class="projects_subtitle">Customer Segmentation with RFM & Unsupervised Learning</h2>
+                            <p>For the FLO company in the retail sector, customers were segmented using RFM analysis and KMeans in two separate projects. By defining customer behaviors and creating groups based on these behavior clusters, more effective marketing strategies can be developed for each customer segment.</p>
+                            <p>This approach allows tailored marketing strategies to be implemented, maximizing engagement and satisfaction among different customer groups.</p> 
+                            <div class="btn_container">
+                                <button class="btn btn_color project_btn" onclick="window.open('https://github.com/alasarerhan/FLO-Customer-Segmentation-w-Unsupervised-Learning', '_blank')">GitHub</button>
+                                <button class="btn btn_color project_btn" onclick="window.open('https://www.kaggle.com/code/erhanalasar/customer-segmentatin-with-unsupervised-learning', '_blank')">Kaggle</button>
+                            </div>
+                        </div>
+                        
+                        <div class="subdetail_container"> <!-- Class name corrected to match previous usage -->
+                            <img src="./assets/spotify_youtube.jpg" class="project_img"/>
+                            <h2 class="projects_subtitle">Comprehensive Data Analysis and Visualization on Streaming Services and Retail Data</h2>
+                            <p>This project consists of two key analyses:
+                            <p>First, an Exploratory Data Analysis (EDA) was performed on Spotify and YouTube datasets to identify trends and patterns in streaming behaviors, helping to understand user engagement and content popularity</p>
+                            <p> Second, the Northwind Traders dataset was analyzed using SQL and visualized with Power BI to gain insights into business operations, sales performance, and customer behavior, supporting strategic decision-making and operational improvements.</p>
+                            <p> The project demonstrates proficiency in data analysis, SQL, and Power BI.</p>
+                            <div class="btn_container">
+                                <button class="btn btn_color project_btn" onclick="window.open('https://github.com/alasarerhan/Comprehensive-Data-Analysis-and-Visualization-on-Streaming-Services-and-Retail-Data', '_blank')">GitHub</button>
+                            </div>
+                        </div>
+                        
+                        <div class="subdetail_container"> <!-- Class name corrected to match previous usage -->
+                            <img src="./assets/powerbi.png" class="project_img"/>
+                            <h2 class="projects_subtitle">Hotel Booking Data Analysis and Visualization with Power BI</h2>
+                            <p>This project focused on addressing high cancellation rates and optimizing revenue for hotels.</p>
+                            <p>The analysis revealed that Travel Agent bookings had a 15% higher cancellation rate compared to direct bookings, and corporate bookings had a 20% higher average daily rate (ADR) than transient ones.</p>
+                            <p>By creating detailed visualizations and dashboards, the project provided actionable insights into booking patterns and customer behavior, enabling more effective strategies for improving customer retention and maximizing revenue.</p>
+                            <div class="btn_container">
+                                <button class="btn btn_color project_btn" onclick="window.open('https://github.com/alasarerhan/Hotel-Booking-Data-Analysis-and-Visualization-with-Power-BI', '_blank')">GitHub</button>
+                            </div>
+                        </div>
+            </div>
+    
+        <section id="certificates">
+            <h1 class="title_2">Certificates</h1>
+            <div class="certificates_row">
+                <!-- İlk Sertifika -->
+                <div class="details_container color_container">
+                    <div class="subdetail_container" onclick="window.open('./certificates/statistics.pdf', '_blank')">
+                        <img src="./certificates/statistics.png" class="certificate_img" alt="Statistics Certificate" />
+                        <h2 class="certificate_subtitle">Probability & Statistics for Machine Learning & Data Science</h2>
+                        <p>This certification demonstrates proficiency in probability and statistical concepts essential for machine learning and data science, covering topics like probability distributions, hypothesis testing, and regression analysis.</p>
+                        <p><strong>Issued by:</strong> DeepLearning.AI</p>
+
+                    </div>
+                </div>
+        
+            <!-- İkinci Sertifika -->
+            <div class="details_container color_container">
+                <div class="subdetail_container" onclick="window.open('./certificates/datascientistbootcamp.png', '_blank')">
+                    <img src="./certificates/datascientistbootcamp.png" class="certificate_img" alt="Data Scientist Certificate" />
+                    <h2 class="certificate_subtitle">Data Scientist Bootcamp</h2>
+                    <p>200+ hours bootcamp incuded practices on Python programming for Data Science, CRM Analytics, Measurement Problems, Recommendation Systems, Feature Engineering, Machine Learning and Querying MS SQL.</p>
+                    <p><strong>Issued by:</strong> Miuul</p>
+                </div>
+            </div>
+            <!-- Üçüncü Sertifika -->
+            <div class="details_container color_container">
+            <div class="subdetail_container" onclick="window.open('./certificates/dataanalystbootcamp.pdf', '_blank')">
+                <img src="./certificates/dataanalystbootcamp.png" class="certificate_img" alt="Data Analyst Certificate" />
+                <h2 class="certificate_subtitle">Data Analyst Bootcamp</h2>
+                <p>Data Analysis with Excel and Python, Querying with SQL, Data Visualization & Reporting with Power BI, Data Analysis in E-Commerce</p>
+                <p><strong>Issued by:</strong> Kodlasam</p>
+            </div>
+            </div>                
+            <!-- Dördüncücü Sertifika -->
+            <div class="details_container color_container">
+            <div class="subdetail_container" onclick="window.open('./certificates/databasesandsql.pdf', '_blank')">
+                <img src="./certificates/databasesandsql.png" class="certificate_img" alt="sql Certificate" />
+                <h2 class="certificate_subtitle">Databases and SQL for Data Science with Python</h2>
+                <p>This certification validates the skills in managing and querying databases using SQL, as well as integrating SQL with Python for data analysis. It covers database design, SQL queries, data manipulation, and advanced database operations, equipping learners with the necessary tools to work effectively with databases in data science projects.</p>
+                <p><strong>Issued by:</strong> IBM</p>
+
+            </div>
+            <!-- Beşinci Sertifika -->
+            <div class="details_container color_container">
+            <div class="subdetail_container" onclick="window.open('./certificates/queryingmssql.png', '_blank')">
+                <img src="./certificates/queryingmssql.png" class="certificate_img" alt="sql Certificate" />
+                <h2 class="certificate_subtitle">Databases and SQL for Data Science with Python</h2>
+                <p>Data Analysis with Excel and Python, Querying with SQL, Data Visualization & Reporting with Power BI, Data Anaylsis in E-Commerce</p>
+                <p><strong>Issued by:</strong> Miuul</p>
+            </div>
+            </div>
+            <!-- 6ncı Sertifika -->
+            <div class="details_container color_container">
+                <div class="subdetail_container" onclick="window.open('./certificates/pythonfordatascience.pdf', '_blank')">
+                    <img src="./certificates/pythonfordatascience.png" class="certificate_img" alt="sql Certificate" />
+                    <h2 class="certificate_subtitle">Python for Data Science & AI Development</h2>
+                    <p><strong>Issued by:</strong> IBM</p>
+                </div>
+            </div>
+        </section>
+            
+            
+            
+        
+        
+        <section id="other-platforms">
+            <p class="section_text_p1">Explore My</p>
+            <h1 class="title_2">Other Platforms</h1>
+            <div class="details_container">
+                <div class="details_container color_container">
+                    <div class="sub-detail_container">
+                        <a href="https://github.com/alasarerhan" class="platform-link" target="_blank" rel="noopener noreferrer">
+                            <img src="./assets/github2.png" class="project_img" alt="GitHub" />
+                            <h2 class="projects_subtitle">Github</h2>
+                            <p>GitHub</p>
+                        </a>
+                    </div>
+                    <div class="sub-detail_container">
+                        <a href="https://medium.com/@erhanalasar" class="platform-link" target="_blank" rel="noopener noreferrer">
+                            <img src="./assets/medium.png" class="project_img" alt="Medium" />
+                            <h2 class="projects_subtitle">Medium</h2>
+                            <p>Medium</p>
+                        </a>
+                    </div>
+                    <div class="sub-detail_container">
+                        <a href="https://www.kaggle.com/erhanalasar" class="platform-link" target="_blank" rel="noopener noreferrer">
+                            <img src="./assets/kaggle.jpg" class="project_img" alt="Kaggle" />
+                            <h2 class="projects_subtitle">Kaggle</h2>
+                            <p>Kaggle</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+           
+  <section id="contact">
+    <h1 class="title_2">Contact Me</h1>
+    <div class="contact-container">
+        <div class="contact-info">
+            <div class="info-item">
+                <a href="mailto:alasar.erhan@gmail.com" title="Send Email">
+                    <img src="./assets/email.png" alt="Email Icon" class="icon contact-icon" style="width: 40px; height: 40px; margin-right: 10px;" />
+                </a>
+                <p class="contact-text">alasar.erhan@gmail.com</p>
+            </div>
+            <div class="info-item">
+                <a href="https://www.linkedin.com/in/erhanalasar/" target="_blank" title="LinkedIn Profile">
+                    <img src="./assets/linkedin.png" alt="LinkedIn Icon" class="icon contact-icon" style="width: 40px; height: 40px;" />
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
